@@ -16,7 +16,7 @@ This project is just for practice purposes and is not trying to model the real w
 ## Techniques
 <ul>
     <li>Bayesian Data Analysis</li>
-    <li>Machine Learning</li>
+    <li>Data Science</li>
     <li>Statistics</li>
 </ul>
 
