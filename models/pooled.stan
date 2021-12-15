@@ -14,7 +14,7 @@ model {
 generated quantities {
     real pred = poisson_rng(la); // PREDICTION FOR CR7
 
-    //vector[N] log_lik;
-    //  for (i in 1:N)
-    //    log_lik[N] = normal_lpdf(y[N] | theta[j], sigma);
+    vector[N] log_lik;
+      for (i in 1:N)
+        log_lik[i] = poisson_lpmf(y[i] | la);
 }
