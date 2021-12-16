@@ -4,7 +4,7 @@ This repository contains the project for the course Bayesian Data Analysis. The 
 
 This project is just for practice purposes and is not trying to model the real world behavior and decisions.<br>
 
-## 
+## Analysis
 [The analysis](./analysis.ipynb)
 
 ## Notes 
