@@ -1,5 +1,5 @@
 data {
-    int<lower=0> N; // NUMBER OF SEASONS (12)
+    int<lower=0> N; // NUMBER OF SEASONS
     int y[N]; // HISTORICAL DATA
     real<lower=0> alpha; // PARAMETER FOR GAMMA DISTRIBUTION
     real<lower=0> beta; // PARAMETER FOR GAMMA DISTRIBUTION
