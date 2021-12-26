@@ -10,12 +10,12 @@ parameters {
     real<lower=0> sigma; // COMMON VARIANCE, CANNOT BE NEGATIVE 
 }
 model {
-    tau ~ normal(0, 100); // HYPERPRIOR
+    tau ~ normal(0, 10); // HYPERPRIOR
     sigma0 ~ inv_chi_square(0.1); // HYPERPRIOR
     sigma ~ inv_chi_square(0.1); // COMMON VARIANCE FOR ALL GROUPS
     for (j in 1:J) {
         mu[j] ~ normal(tau, sigma0);
-        y[, j] ~ normal(mu[j]); // LIKELIHOOD
+        y[, j] ~ normal(mu[j], sigma); // LIKELIHOOD
     }
 }
 generated quantities {
