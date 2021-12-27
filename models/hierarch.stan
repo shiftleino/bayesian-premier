@@ -21,7 +21,6 @@ model {
 generated quantities {
     real mu4 = normal_rng(tau, sigma0);
     real pred4 = normal_rng(mu4, sigma); // PREDICTION
-
     vector[N*J] log_lik;
     for (j in 1:J)
       for (i in 1:N)
