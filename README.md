@@ -1,6 +1,6 @@
 # Bayesian Data Analysis on Premier League
 
-This repository contains the project for the course Bayesian Data Analysis. The project predicts Cristiano Ronaldo's goals for Manchester United in the 2021-2022 Premier League season. The project uses Python and Stan to build and run this model. 
+This repository contains the project for the course Bayesian Data Analysis. In the project three different models are used to predict Cristiano Ronaldo's goals for Manchester United in the 2021-2022 Premier League season. The project uses Python and Stan to build and run this model. 
 
 This project is just for practice purposes and is not trying to model the real world behavior and decisions.<br>
 
