@@ -24,4 +24,4 @@ This project is just for practice purposes and is not trying to model the real w
 </ul>
 
 ## Errors 
-If you see an error in the used models or in the theory, please leave an issue so that I can a) Fix it and b) Learn from it. :)
+If you see an error in the used models or in the theory, please leave an issue so that I can a) Fix it and b) Learn from it.
